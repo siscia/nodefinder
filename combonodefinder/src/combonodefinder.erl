@@ -31,6 +31,7 @@ discover () ->
 
 start () ->
   crypto:start (),
+  application:start (inets),
   application:start (combonodefinder).
 
 %% @hidden

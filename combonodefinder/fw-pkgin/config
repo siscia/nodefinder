@@ -2,7 +2,7 @@
 # environment variable FW_PACKAGE_DEFAULT_MAINTAINER if non-empty
 
 FW_PACKAGE_NAME="combonodefinder"
-FW_PACKAGE_VERSION="0.0.3"
+FW_PACKAGE_VERSION="0.0.4"
 FW_PACKAGE_MAINTAINER="Paul Mineiro <paul-fw@mineiro.com>"
 FW_PACKAGE_SHORT_DESCRIPTION="Nodefinder and ec2nodefinder, combined."
 FW_PACKAGE_DESCRIPTION=`cat README`
@@ -43,6 +43,10 @@ FW_PACKAGE_BUILD_CONFLICTS=""
 # uncomment to define the application environment variables. should be an 
 # erlang expression which evaluates to a list.
 # FW_ERL_APP_ENVIRONMENT="[]"
+
+# uncomment to indicate additional OTP applications (besides kernel and stdlib)
+# # that this application depends upon, comma-separated
+FW_ERL_PREREQ_APPLICATIONS_EXTRA="inets"
 
 FW_ERL_APP_EXTRA="{ included_applications, [ ec2nodefinder, nodefinder ] }"
 
