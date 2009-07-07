@@ -1,3 +1,7 @@
+=Version 0.2.1=
+  * rerelease with upgraded fw-template-erlang
+  * dialyzer doesn't know about undocumented arguments to gen_udp:open/2
+
 =Version 0.2.0=
   * Incorporate suggestions from Matthew Dempsky <matthew@mochimedia.com>
   	- multicast ttl

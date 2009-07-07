@@ -12,3 +12,5 @@ erlappebin_SCRIPTS =					\
 
 check_DATA =			\
   .dialyzer_ok
+
+DIALYZERFLAGS += -Wno_return
