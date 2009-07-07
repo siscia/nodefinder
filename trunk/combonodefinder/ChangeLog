@@ -1,3 +1,6 @@
+=Version 0.0.5=
+  * rerelease with upgraded fw-template-erlang
+
 =Version 0.0.4=
   * must start inets in R12
 
