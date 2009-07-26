@@ -1,4 +1,5 @@
 #summary Some installation hints.
+#labels Featured
 
 = Introduction =
 
