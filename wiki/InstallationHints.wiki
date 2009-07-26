@@ -1,5 +1,5 @@
 #summary Some installation hints.
-#labels Featured
+#labels Featured,Phase-Deploy
 
 = Introduction =
 
