@@ -4,4 +4,4 @@
 
 Do NOT attempt to build from a checkout from the source code repository: that is for wizards only. Instead, grab one of the released source tarballs from the [http://code.google.com/p/nodefinder/downloads/list downloads] tab. 
 
-The released source tarballs build via {{{ ./configure; make; make install }}}.  The default prefix is {{{/usr}}} (NOT {{{/usr/local}}}) so if you don't like that use the {{{--prefix}}} option to configure.
+The released source tarballs build via {{{ ./configure; make; make install }}}.  The default prefix is {{{/usr}}} (not {{{/usr/local}}}) so if you don't like that use the {{{--prefix}}} option to configure.
