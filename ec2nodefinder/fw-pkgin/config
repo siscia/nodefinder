@@ -15,7 +15,7 @@ FW_PACKAGE_ARCHITECTURE_DEPENDENT="0"
 # For other packaging systems, the syntax is translated for you.
 
 FW_PACKAGE_DEPENDS="ec2-api-tools,
-                    openjdk-6-jre | openjdk-6-jre-headless | fink (>= 0.0.0)"
+                    java-gcj-compat-headless | java-gcj-compat | java2-runtime-headless | java1-runtime | java2-runtime | fink (>= 0.0.0)"
 FW_PACKAGE_CONFLICTS=""
 FW_PACKAGE_PROVIDES="nodefinder-service"
 FW_PACKAGE_REPLACES=""
